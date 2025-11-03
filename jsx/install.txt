@@ -1,0 +1,8 @@
+
+https://reactnative.dev/docs/running-on-device
+
+npm run android
+adb devices
+adb -s <device name> reverse tcp:8081 tcp:8081
+
+create-expo-app
